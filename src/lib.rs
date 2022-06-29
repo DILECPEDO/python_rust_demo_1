@@ -1,6 +1,5 @@
 use pyo3::prelude::*;
 
-/// Formats the sum of two numbers as string.
 #[pyfunction]
 fn doublestring(str: String) -> PyResult<String> {
     let result = str
